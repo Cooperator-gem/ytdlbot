@@ -14,9 +14,9 @@ from blinker import signal
 # general settings
 WORKERS: int = int(os.getenv("WORKERS", 10))
 PYRO_WORKERS: int = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: int = int(os.getenv("APP_ID", 198214))
-APP_HASH = os.getenv("APP_HASH", "1234b90")
-TOKEN = os.getenv("TOKEN", "1234")
+APP_ID: int = int(os.getenv("APP_ID", 16393106))
+APP_HASH = os.getenv("APP_HASH", "061fbf1aff7eecf2edb8434ddbab7a7d")
+TOKEN = os.getenv("TOKEN", "7019653925:AAFtUsAz-2w3IglgY_tionN5qE6bkcr02F4")
 
 REDIS = os.getenv("REDIS", "redis")
 
@@ -28,7 +28,7 @@ TG_NORMAL_MAX_SIZE = 2000 * 1024 * 1024
 EXPIRE = 24 * 3600
 
 ENABLE_VIP = os.getenv("VIP", False)
-OWNER = os.getenv("OWNER", "BennyThink")
+OWNER = os.getenv("OWNER", "unknownpersonzz")
 
 # limitation settings
 AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "")
